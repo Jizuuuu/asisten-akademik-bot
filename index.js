@@ -3,6 +3,15 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const cron = require('node-cron');
 const fs = require('fs');
 const axios = require('axios');
+const express = require('express'); // Tambahan Express
+
+// ==========================================
+// TRIK WEB SERVER UNTUK RENDER GRATIS
+// ==========================================
+const app = express();
+app.get('/', (req, res) => res.send('Bot Asisten Akademik Sedang Menyala! 🤖'));
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Server web port ${port} siap (Render Bypassed)`));
 
 // Membaca file jadwal data.json
 const localData = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
