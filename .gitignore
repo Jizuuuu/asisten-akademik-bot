@@ -1,0 +1,7 @@
+node_modules/
+.env
+debug_nilai.json
+debug_khs.html
+dashboard.html
+igracias_login.html
+.DS_Store

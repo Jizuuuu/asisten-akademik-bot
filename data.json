@@ -1,0 +1,23 @@
+{
+    "jadwal": {
+    "senin": [
+        { "matkul": "Pemrograman Berorientasi Objek", "jam": "09:00 - 12:30", "ruang": "KTT 2.19" },
+        { "matkul": "Strategi Algoritma", "jam": "13:30 - 16:30", "ruang": "KTT 2.35" }
+    ],
+    "selasa": [
+        { "matkul": "Pemrograman Berorientasi Objek (praktikum)", "jam": "09:30 - 12:30", "ruang": "SWENG LAB" },
+        { "matkul": "Dasar Kecerdasan Artifisial", "jam": "12:30 - 15:30", "ruang": "DATA AI LAB" }
+    ],
+    "rabu": [
+        { "matkul": "Jaringan Komputer", "jam": "09:30 - 12:30", "ruang": "KTT B-1.08" },
+        { "matkul": "WGTIK", "jam": "14:30 - 16:30", "ruang": "KTT 2.26" }
+    ],
+    "kamis": [
+        { "matkul": "Jaringan Komputer(praktikum)", "jam": "06:30 - 09:30", "ruang": "CYCLD LAB" },
+        { "matkul": "IMK", "jam": "11:30 - 14:30", "ruang": "KTT B-1.06" }
+    ],
+    "jumat": [
+        { "matkul": "Dasar Kecerdasan Artifisial", "jam": "08:30 - 10:30", "ruang": "KTT 2.35" }
+    ]
+    }
+}
