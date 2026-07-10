@@ -3,6 +3,15 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const cron = require('node-cron');
 const fs = require('fs');
 const axios = require('axios');
+const express = require('express');
+
+// ==========================================
+// PORT BINDING UNTUK AZURE APP SERVICE
+// ==========================================
+const app = express();
+app.get('/', (req, res) => res.send('Bot Asisten Akademik Sedang Menyala di Azure! 🚀'));
+const port = process.env.PORT || 8080;
+app.listen(port, () => console.log(`Server web port ${port} siap (Azure Bypassed)`));
 
 // Membaca file jadwal data.json
 const localData = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
